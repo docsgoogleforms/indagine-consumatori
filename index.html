@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indagine sulla percezione della comunicazione visiva</title>
+  <script>
+    // Inserisci qui sotto i due link completi dei tuoi Google Moduli tra le virgolette
+    const moduloTradizionale = "https://docs.google.com/forms/d/e/1FAIpQLSep3iOPD44RB8bsXUtIaI-lqIpFHjDKCP2Dtk13RK_r3tTaBQ/viewform?usp=header";
+    const moduloAI = "https://docs.google.com/forms/d/e/1FAIpQLSfCjRoKgUr6ObZ6xk3jLPG1bG8DTmdmaX36adhXGBJRnIRUwg/viewform?usp=header";
+
+    // Assegnazione casuale 50% / 50%
+    const destinazione = Math.random() < 0.5 ? moduloTradizionale : moduloAI;
+    window.location.replace(destinazione);
+  </script>
+</head>
+<body style="font-family: sans-serif; text-align: center; padding-top: 50px; color: #333;">
+  <p>Apertura del questionario in corso, attendi un istante...</p>
+</body>
+</html>
